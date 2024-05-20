@@ -1,0 +1,10 @@
+.icon{
+    height: 100px;
+    display: inline-block;
+    align-self: flex-end;
+}
+@media (max-width: 448px) {
+    .icon{
+        align-self: center;
+    }
+}
